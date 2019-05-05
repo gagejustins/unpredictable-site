@@ -1,3 +1,49 @@
 body {
     color:red;
+    font-family: Space Mono, monospace;
+}
+
+div.container-fluid.main {
+    background-color: black;
+    padding: 100px 50px 100px 50px;
+}
+
+.container-fluid.main h2 {
+    color: white;
+    font-family: Righteous, monospace;
+    font-size: 1.3em;
+}
+
+.main-logo-svg {
+    width: 8%;
+    min-width: 100px;
+    stroke: white;
+}
+
+.main-logo-svg path {
+  stroke: white;
+}
+
+.main-logo-svg path.heart {
+  stroke: white;
+  fill: white;
+}
+
+#main-logo-container {
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+img.main-sneakers-diagonal {
+    width: 60%;
+    fill: white;
+    padding: none;
+    margin: none;
+}
+
+.main-subtext p {
+    padding-top: 20px;
+    font-size: 1.6em;
+    color: white;
+    font-family: Righteous, monospace;
 }
